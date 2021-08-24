@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Xml;
 using Sitecore.Xml;
 
@@ -21,11 +22,7 @@ namespace OneNorth.SitecoreItemBuilder.CreateCustomItem.Models
 
             Placeholder = XmlUtil.GetAttribute("placeholder", node, string.Empty);
 
-            bool hasDataSource;
-            if (bool.TryParse(XmlUtil.GetAttribute("hasdatasource", node, "true"), out hasDataSource))
-                HasDataSource = hasDataSource;
-            else
-                HasDataSource = true;
+            HasDataSource = !String.IsNullOrWhiteSpace(DataSource);
 
             var renderings = new List<Rendering>();
             if (node.HasChildNodes)
