@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNorth.SitecoreItemBuilder", "OneNorth.SitecoreItemBuilder\OneNorth.SitecoreItemBuilder.csproj", "{5FF42287-58CF-42A4-8E27-B9F62B81E1E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF42287-58CF-42A4-8E27-B9F62B81E1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF42287-58CF-42A4-8E27-B9F62B81E1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF42287-58CF-42A4-8E27-B9F62B81E1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF42287-58CF-42A4-8E27-B9F62B81E1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {AB1EAD5F-731C-464A-A49B-6F823AE14C69}
+	EndGlobalSection
+EndGlobal
